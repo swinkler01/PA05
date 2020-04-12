@@ -21,11 +21,12 @@ public class Population{
     //this.createPeople();
   }
 
-  public void createPeople(){
-    for(int i=0; i<this.people.length; i++){
-      this.addPerson(new Person());
-    }
-  }
+  // Since Person becomes an abstract class, this method will create error
+//  public void createPeople(){
+//    for(int i=0; i<this.people.length; i++){
+//      this.addPerson(new Person());
+//    }
+//  }
 
 
   public void addPerson(Person p){

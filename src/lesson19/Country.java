@@ -7,6 +7,9 @@ public class Country {
 	int numInfected=0;
 	int numRecovered=0;
 	int numPeople=0;
+	
+	int height;
+	int width;
 
 	/**
 	 * places is a 2d array representing the places a person could be
@@ -22,6 +25,8 @@ public class Country {
 
 	public Country(int height, int width) {
 		this.places = new Person[height][width];
+		this.height = height;
+		this.width = width;
 	}
 
 	public Country() {

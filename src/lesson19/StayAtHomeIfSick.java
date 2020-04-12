@@ -7,11 +7,11 @@ public class StayAtHomeIfSick extends Person{
 		super();
 	}
 
+	@Override
 	public void tryToMove() {
-
-    if (!this.infected){
-      super.tryToMove();
-    }
+	    if (!this.infected){// move when not sick
+	        super.tryToMoveRandomly();
+	    }
 	}
 
 }
