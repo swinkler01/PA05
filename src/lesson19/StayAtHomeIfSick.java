@@ -1,7 +1,6 @@
 package lesson19;
 
-public class StayAtHomeIfSick extends Person{
-
+public class StayAtHomeIfSick extends Person {
 
 	public StayAtHomeIfSick() {
 		super();
@@ -9,9 +8,9 @@ public class StayAtHomeIfSick extends Person{
 
 	@Override
 	public void tryToMove() {
-	    if (!this.infected){// move when not sick
-	        super.tryToMoveRandomly();
-	    }
+		if (!this.infected) {// move when not sick
+			super.tryToMoveRandomly();
+		}
 	}
 
 }

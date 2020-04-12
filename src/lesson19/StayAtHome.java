@@ -1,7 +1,6 @@
 package lesson19;
 
-public class StayAtHome extends Person{
-
+public class StayAtHome extends Person {
 
 	public StayAtHome() {
 		super();
